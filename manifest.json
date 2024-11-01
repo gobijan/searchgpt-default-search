@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "ChatGPT Default Search",
+  "name": "ChatGPT Search Provider",
   "version": "1.0",
-  "description": "Sets ChatGPT as the default search engine in Firefox.",
+  "description": "Sets ChatGPT as a search engine in Chrome or Firefox.",
   "icons": {
     "48": "icons/chatgpt-48.png"
   },
