@@ -9,7 +9,7 @@
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "ChatGPT",
-      "search_url": "https://chatgpt.com/search?q={searchTerms}",
+      "search_url": "https://chatgpt.com/?q={searchTerms}&hints=search&ref=ext",
       "favicon_url": "https://chatgpt.com/favicon.ico",
       "keyword": "chatgpt",
       "encoding": "UTF-8",
