@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "ChatGPT Default Search",
+  "version": "1.0",
+  "description": "Sets ChatGPT as the default search engine in Firefox.",
+  "icons": {
+    "48": "icons/chatgpt-48.png"
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "ChatGPT",
+      "search_url": "https://chatgpt.com/search?q={searchTerms}",
+      "favicon_url": "https://chatgpt.com/favicon.ico",
+      "keyword": "chatgpt",
+      "encoding": "UTF-8",
+      "is_default": true
+    }
+  }
+}
+
